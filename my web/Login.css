@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #7c2d12, #a16207);
+}
+
+form.f1 {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+form h1 {
+    text-align: center;
+    color: #0f766e;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+form .p1 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 20px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+form label.l1,
+form label.l2 {
+    font-size: 16px;
+    color: #334155;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+form input.i1,
+form input.i2 {
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 100%;
+    outline: none;
+}
+
+form input.i1:focus,
+form input.i2:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+label.l3 {
+    display: inline-block;
+    font-size: 15px;
+    color: #475569;
+    margin: 8px 0 16px;
+}
+
+button.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.25);
+}
+
+.p3,
+.p4 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.p3 a,
+.p4 a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.p3 a:hover,
+.p4 a:hover {
+    text-decoration: underline;
+}
+
+.p2 {
+    color: #475569;
+    text-align: center;
+    margin-top: 14px;
+}

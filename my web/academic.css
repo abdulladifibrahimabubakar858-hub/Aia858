@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.page {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+    padding: 35px;
+}
+
+h1.sama {
+    text-align: center;
+    color: #0f766e;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.card {
+    background: #f8fafc;
+    border-left: 6px solid #0ea5e9;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+
+.dt1, .dt2, .dt3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #475569;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.card ol {
+    padding-left: 20px;
+    color: #334155;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+.div-2 {
+    margin-top: 12px;
+}
+
+.div-2 a {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #0ea5e9;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.div-2 a:hover {
+    background: #0284c7;
+}
